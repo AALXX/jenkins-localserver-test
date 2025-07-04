@@ -23,9 +23,11 @@ kind: Service
 metadata:
   name: nextjs
 spec:
+  type: NodePort  
   selector:
     app: nextjs
   ports:
     - protocol: TCP
       port: 80
       targetPort: 3000
+      nodePort: 30080  
