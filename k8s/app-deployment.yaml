@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nextjs
-        image: your-dockerhub-user/nextjs-app:latest
+        image: s3rbvn/nextjs-app:latest
         ports:
         - containerPort: 3000
 ---
